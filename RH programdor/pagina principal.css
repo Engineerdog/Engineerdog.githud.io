@@ -1,0 +1,259 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: #679ec3;
+    height: 100vh;
+}
+
+article .subcolor {
+    color: black;
+    font-size: 30px;
+}
+
+article .subcolor1 {
+    color: black;
+    font-size: 70px;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    width: 100%;
+    height: 68px;
+    background: linear-gradient(150deg,#054874 , #38393a);;
+}
+
+header .c {
+    left: 78%;
+    top: 2%;
+    color: black;
+    position: absolute;
+    font-size: 25px;
+
+}
+
+header .ca {
+    left: 72%;
+    top: 2%;
+    color: black;
+    position: absolute;
+    font-size: 25px;
+}
+
+
+.container-header hr {
+    width: 1px;
+    height: 68px;
+    border-style: none;
+    left: 70%;
+    position: absolute;
+    background: black
+    
+
+}
+
+.container-header {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.logo-titulo{
+    display: flex;
+}
+
+.logo-titulo img {
+    width: 8%;
+    height: 8%;
+    margin-left: 1%;
+}
+
+.logo-titulo h1 {
+    color: white;
+    font-weight: 100;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+/*portada*/
+
+.container-portaa {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-size: 200%; 
+    animation: cambiodecolor 30s infinite ;
+    animation-direction: alternate;
+}
+
+@keyframes cambiodecolor {
+    0%{
+        background-color: #054874;
+    }
+    16%{
+        background-color: rgb(255, 182, 18);
+    }
+
+    32%{
+        background-color: rgb(255, 102, 0);
+    }
+    48%{
+        background-color: rgb(226, 78, 198);
+    }
+    64%{
+        background-color: rgb(146, 208, 80);
+    }
+    64%{
+        background-color: rgb(194, 133, 163);
+    }
+    80%{
+        background-color: rgb(91, 155, 213);
+    }
+    100%{
+        background-color: #054874;
+    }
+}
+
+.container-portaa video {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    border-bottom: 2%;
+}
+
+/**/
+@keyframes movete{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top left;
+    }
+}
+
+.capa-capa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(right, rgb(61, 61, 61), rgb(2, 2, 130));
+    opacity: 0.6;
+}
+
+/*texto de la imagen*/
+
+.container-details {
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+}
+
+.details{
+    left: 5%;
+    width: 100%;
+    max-width: 50%;
+    position: relative;
+    top: 10%;
+    color: white;
+}
+
+.details .titulo {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.details .texto{
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+
+/*Articulo*/
+
+main {
+    width: 100%;
+    max-width: 1200px;
+
+}
+
+article {
+    width: 100%;
+    max-width: 8S00px;
+    margin-top: 20px;
+    margin-left: 70px;
+
+}
+
+article h1 { 
+    font-size: 40px;
+    font-weight: 100
+
+}
+
+article hr {
+    max-width: 500px;
+    height: 4px;
+    border-style: none;
+    background: -webkit-linear-gradient(left, rgb(61, 61, 61), rgb(2, 2, 130));
+    margin-top: 10px;
+}
+
+article p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.conteiner {
+    margin-top: 3%;
+
+}
+
+.conteiner .img_conteiner {
+    margin-left: 30%;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+
+.conteiner .img_conteiner .main_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgb(1, 23, 46, 0.6);
+    object-fit: cover;
+}
+
+.conteiner .thumbnail_container {
+    margin-left: 7%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteiner .thumbnail_container .thumbnail {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.conteiner .thumbnail_container .thumbnail:hover {
+    opacity: 1;
+
+}
+
+.active {
+    opacity:  1 !important;
+    box-shadow: 0 5px 5px rgb(1, 23, 46, 0.6);
+}
