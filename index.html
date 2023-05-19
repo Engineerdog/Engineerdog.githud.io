@@ -17,9 +17,32 @@
                     <li class="lip"><a href="#Preguntas" class="ap">Preguntas</a></li>
                 </ul>
 
-                <nav>
+                <nav class="navidad">
                     <ul class="list">
-                        <li class="list-bottom"><a href="#" class="ap">contactos</a></li>
+                        <li class="list_item list_item--click">
+                            <div class="list_button list_button--click">
+                            <a href="#" class="list_button">contactos</a>
+                            <img src="RH imagenes/arrow.png" alt="" class="list_arrow">
+                            </div>
+
+                            <ul class="list_show">
+                                <li class="list_inside">
+                                    <a href="#" class="nav_link nav_link--inside"><img src="RH imagenes/Logo_de_Facebook.png" alt="">Facebook</a>
+                                </li>
+
+                                <li class="list_inside">
+                                    <a href="#" class="nav_link nav_link--inside">Twitter</a>
+                                </li>
+                                
+                                <li class="list_inside">
+                                    <a href="#" class="nav_link nav_link--inside">Correo</a>
+                                </li>
+
+                                <li class="list_inside">
+                                    <a href="Publicidad.html" class="nav_link nav_link--inside">publisidad</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
 
@@ -41,7 +64,7 @@
 
     <div class="matrix">
         <canvas id="canvas"></canvas>
-        <script src="app.js"></script>
+        <script src="cascadamatrix.js"></script>
     
         <script>
             window.onload = function() {
@@ -57,11 +80,13 @@
             <h1 class="subtitulos" id="Proyectos">trabajos</h1>
             <div class="contenido">
                 <div class="SCROLL">
-                <div class="trabajoecho">
+                    <a href="RHaplica.html">
+                    <div class="trabajoecho">
                     <img src="RH imagenes/plantillapedidos.png" alt="" class="RH">
                     <p class="tituloinfo">RH rentas:</p>
                     <p class="info" >Una aplicación que permite guardar los pedidos hechos con un formulario especialisado para el deber, teniendo una vista de todos los pedidos</p>
-                </div>
+                </div></a>
+                
                 
 
             </div>
@@ -76,82 +101,93 @@
         <div class="Cajapregunta">
             <div class="SCROLLv2">
             <ul class="lista-preguntas">
-            <li class="pi"><a href="#" class="caja1"><img src="RH imagenes/HTML.png" alt=""> ¿Qué es HTML?</a>
+            <li class="pi"><a href="#pre9" class="caja1"><img src="RH imagenes/HTML.png" alt=""> ¿Qué es HTML?</a>
         <ul class="informacion" >
-            <li class="pi"><a href="#" class="caja2">El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos.</a></li>
+            <li class="pi"><a href="#pre9" id="pre9" class="caja2">El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos.</a></li>
         </ul>
     </li>
 </ul>
 
 <ul class="lista-preguntas">
-    <li class="pi"><a href="#" class="caja1"><img src="RH imagenes/CSS.png" alt=""> ¿Qué es CSS?</a>
+    <li class="pi"><a href="#pre8" class="caja1"><img src="RH imagenes/CSS.png" alt=""> ¿Qué es CSS?</a>
 <ul class="informacion" >
-    <li class="pi"><a href="#" class="caja2">CSS son las siglas en inglés para «hojas de estilo en cascada» (Cascading Style Sheets). Básicamente, es un lenguaje que maneja el diseño y presentación de las páginas web, es decir, cómo lucen cuando un usuario las visita. Funciona junto con el lenguaje HTML que se encarga del contenido básico de las páginas.</a></li>
+    <li class="pi"><a href="#pre8" id="pre8" class="caja2">CSS son las siglas en inglés para «hojas de estilo en cascada» (Cascading Style Sheets). Básicamente, es un lenguaje que maneja el diseño y presentación de las páginas web, es decir, cómo lucen cuando un usuario las visita. Funciona junto con el lenguaje HTML que se encarga del contenido básico de las páginas.</a></li>
 </ul>
 </li>
 </ul>
 
 <ul class="lista-preguntas">
-    <li class="pi"><a href="#" class="caja1"><img src="RH imagenes/Android studio.png" alt=""> ¿Qué es Android Studio?</a>
+    <li class="pi"><a href="#pre7" class="caja1"><img src="RH imagenes/Android studio.png" alt=""> ¿Qué es Android Studio?</a>
 <ul class="informacion" >
-    <li class="pi"><a href="#" class="caja2">Android Studio ofrece generadores de perfiles de rendimiento para que puedas realizar un seguimiento más fácil del uso de CPU y memoria de tu app, encontrar objetos desasignados, ubicar fugas de memoria, optimizar el rendimiento de los gráficos y analizar las solicitudes de red.</a></li>
+    <li class="pi"><a href="#pre7" id="pre7" class="caja2">Android Studio ofrece generadores de perfiles de rendimiento para que puedas realizar un seguimiento más fácil del uso de CPU y memoria de tu app, encontrar objetos desasignados, ubicar fugas de memoria, optimizar el rendimiento de los gráficos y analizar las solicitudes de red.</a></li>
 </ul>
 </li>
 </ul>
 
 <ul class="lista-preguntas">
-    <li class="pi"><a href="#" class="caja1"><img src="RH imagenes/EdrawMind.png" alt=""> ¿Qué es EdrawMind?</a>
+    <li class="pi"><a href="#pre6" class="caja1"><img src="RH imagenes/EdrawMind.png" alt=""> ¿Qué es EdrawMind?</a>
 <ul class="informacion" >
-    <li class="pi"><a href="#" class="caja2"> es una herramienta gratuita para crear mapas conceptuales. Cuenta con diseños de ejemplo y ofrece tal libertad que puede usarse también como herramienta de dibujo, pudiendo guardar nuestras creaciones como PDF o en cualquier formato de imagen.</a></li>
+    <li class="pi"><a href="#pre6" id="pre6" class="caja2"> es una herramienta gratuita para crear mapas conceptuales. Cuenta con diseños de ejemplo y ofrece tal libertad que puede usarse también como herramienta de dibujo, pudiendo guardar nuestras creaciones como PDF o en cualquier formato de imagen.</a></li>
 </ul>
 </li>
 </ul>
 
 <ul class="lista-preguntas">
-    <li class="pi"><a href="#" class="caja1"><img src="RH imagenes/EdrawMind.png" alt=""> Animaciones Multimedia</a>
+    <li class="pi"><a href="#pre1"  class="caja1"><img src="RH imagenes/EdrawMind.png" alt=""> Animaciones Multimedia</a>
 <ul class="informacion" >
-    <li class="pi"><a href="#" class="caja2"> <img src="RH imagenes/Animaciones Multimedia.png" alt=""></a></li>
+    <li class="pi"><a href="#pre1" id="pre1" class="caja2"> <img src="RH imagenes/Animaciones Multimedia.png" alt=""></a></li>
 </ul>
 </li>
 </ul>
 
 <ul class="lista-preguntas">
-    <li class="pi"><a href="#" class="caja1"><img src="RH imagenes/EdrawMind.png" alt=""> Inducción al diseño digital</a>
+    <li class="pi"><a href="#pre2" class="caja1"><img src="RH imagenes/EdrawMind.png" alt=""> Inducción al diseño digital</a>
 <ul class="informacion" >
-    <li class="pi"><a href="#" class="caja2"> <img src="RH imagenes/Inducción al diseño digital.png" alt=""></a></li>
+    <li class="pi"><a href="#pre2" id="pre2" class="caja2"> <img src="RH imagenes/Inducción al diseño digital.png" alt=""></a></li>
 </ul>
 </li>
 </ul>
 
 <ul class="lista-preguntas">
-    <li class="pi"><a href="#" class="caja1"><img src="RH imagenes/EdrawMind.png" alt=""> software de diseño editorial digital</a>
+    <li class="pi"><a href="#pre3"  class="caja1"><img src="RH imagenes/EdrawMind.png" alt=""> software de diseño editorial digital</a>
 <ul class="informacion" >
-    <li class="pi"><a href="#" class="caja2"> <img src="RH imagenes/software de diseño editorial.png" alt=""></a></li>
+    <li class="pi"><a href="#pre3" id="pre3" class="caja2"> <img src="RH imagenes/software de diseño editorial.png" alt=""></a></li>
 </ul>
 </li>
 </ul>
 
 <ul class="lista-preguntas">
-    <li class="pi"><a href="#" class="caja1"><img src="RH imagenes/EdrawMind.png" alt=""> software para edición de gráficos de mapa de bits</a>
+    <li class="pi"><a href="#pre4"  class="caja1"><img src="RH imagenes/EdrawMind.png" alt=""> software para edición de gráficos de mapa de bits</a>
 <ul class="informacion" >
-    <li class="pi"><a href="#" class="caja2"> <img src="RH imagenes/software para edición de gráficos de mapa de bits.png" alt=""></a></li>
+    <li class="pi"><a href="#pre4" id="pre4" class="caja2"> <img src="RH imagenes/software para edición de gráficos de mapa de bits.png" alt=""></a></li>
 </ul>
 </li>
 </ul>
 
 <ul class="lista-preguntas">
-    <li class="pi"><a href="#" class="caja1"><img src="RH imagenes/EdrawMind.png" alt=""> software para edición de gráficos vectoriales</a>
+    <li class="pi"><a href="#pre5" id="pre5" class="caja1"><img src="RH imagenes/EdrawMind.png" alt=""> software para edición de gráficos vectoriales</a>
 <ul class="informacion" >
-    <li class="pi"><a href="#" class="caja2"> <img src="RH imagenes/software para edición de gráficos vectoriales.png" alt=""></a></li>
+    <li class="pi"><a href="#pre5" id="pre5" class="caja2"> <img src="RH imagenes/software para edición de gráficos vectoriales.png" alt=""></a></li>
+</ul>
+</li>
+</ul>
+
+<ul class="lista-preguntas">
+    <li class="pi"><a href="#PDDF" class="caja1"><img src="RH imagenes/EdrawMind.png" alt=""> software para edición de gráficos vectoriales</a>
+<ul class="informacion" >
+    <li class="pi"><a href="#PDDF" id="PDDF" class="caja2"><embed src="RH imagenes/copetencias.pdf" type="application/pdf" class="PDFF"/></a></li>
 </ul>
 </li>
 </ul>
 
 <br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
     </div>
     </div>
     <br><br><br><br><br><br><br><br>
+
+    <script src="app.js"></script>
     
 </body>
 </html>

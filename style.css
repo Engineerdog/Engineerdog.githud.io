@@ -305,16 +305,20 @@ article .trabajoecho .info{
     font-size: auto;
     width: 100%;
     height: 100%;
+    text-decoration: none;
+    color: #000000;
 }
 
 article .trabajoecho .tituloinfo{
-    position: relative;
+    position: absolute;
     top: 200px;
     padding-left: 10px;
     font-size: 40px auto;
     width: 100%;
     height: 100%;
     font-family: 'Major Mono Display', monospace;
+    color: #000000;
+    text-decoration: none;
 }
 /*fin*/
 article h1{
@@ -349,21 +353,6 @@ header .opciones .lip .ap{
 }
 
 header .opciones .lip .ap:hover{
-    box-shadow: 0px 0px 10px 10px #011d00;
-    background: #011d00;
-    color:  white;
-    transition: all 200ms ease-out;
-}
-
-header .opciones .list-bottom .ap{
-    font-size: 25px;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
-    color: black;
-}
-
-header .opciones .list-bottom .ap:hover{
     box-shadow: 0px 0px 10px 10px #011d00;
     background: #011d00;
     color:  white;
@@ -473,9 +462,102 @@ ul, li, a{
     border-radius: 50px;
 }
 
+.preguntas .Cajapregunta .pi .caja2 .PDFF{
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    margin-left: 5px;
+    margin: 20px;
+    top: 20px;
+}
 
 
+/*CONTACTOS*/
+
+header .opciones .list_item .list_button{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 70%;
+}
+
+header .opciones .list_item .list_arrow{
+    width: 25%;
+    height: 35%;
+    position: absolute;
+    top: 10x;
+    left: 130px;
+}
+
+header .opciones .navidad {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 68px;
+}
+.list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list_item{
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.list_item--click{
+    cursor: pointer;
+}
+
+nav{
+    z-index: 1;
+    height: 68px;
+    width: 200px;
+}
+.nav_link {
+    color: black;
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+.nav_link img{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+    left: -5px;
+}
 
 
+.nav_link--inside:hover{
+    background: #bfc0c2;
 
+}
+
+.list_show{
+    width: 80%;
+    margin-left: auto;
+    background: white;
+    border-radius: 5px;
+    transition: height .4s;
+    height: 0;
+}
+
+.arrow .list_arrow{
+    transform: rotate(180deg);
+}
+
+.list_arrow{
+    margin-left: auto;
+    transform: transform .3s;
+}
 
